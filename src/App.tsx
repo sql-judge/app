@@ -1,25 +1,53 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+
+import "./App.sass";
+import Problems from "./pages/Problems/Problems";
+
+import {
+  ApolloClient,
+  ApolloProvider,
+  createHttpLink,
+  InMemoryCache,
+} from "@apollo/client";
+import Problem from "./pages/Problem/Problem";
+import SubmissionsTable from "./pages/Submissions/SubmissionsTable";
+import Submission from "./pages/Submission/Submission";
+
+const link = createHttpLink({ uri: "http://0.0.0.0:8080/query?" });
+
+const client = new ApolloClient({
+  cache: new InMemoryCache(),
+  link,
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ApolloProvider client={client}>
+      <Router>
+        <div className="app">
+          <Navbar />
+          <div className="app-content">
+            <Switch>
+              <Route exact path="/problems" component={Problems} />
+              <Route exact path="/problems/:id" component={Problem} />
+              <Route exact path="/courses">
+                courses
+              </Route>
+              <Route exact path="/submissions" component={SubmissionsTable} />
+              <Route exact path="/submissions/:id" component={Submission} />
+              <Redirect from="/" to="/problems" />
+            </Switch>
+          </div>
+        </div>
+      </Router>
+    </ApolloProvider>
   );
 }
 

@@ -20,32 +20,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfaa9e13-baa3-4285-9d74-407e0d1ae8ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serviceWorker.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/elman.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spinners/Spinners.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spinners/Spinners.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/Table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TagRow/TagRow.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TagRow/TagRow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Problem/Problem.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Problem/Problem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Problems/Problems.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Problems/ProblemsTable.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Problems/ProblemsTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Submission/Submission.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Submissions/SubmissionsTable.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Submissions/SubmissionsTable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +67,19 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1fjXWacm4ROFtSkJDXpC8c1NWS2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -82,9 +93,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -95,12 +109,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596732507291</updated>
-      <workItem from="1596732508939" duration="6893000" />
+      <workItem from="1596732508939" duration="13702000" />
+      <workItem from="1596748330420" duration="5220000" />
+      <workItem from="1596790715687" duration="11687000" />
+      <workItem from="1597781830610" duration="1231000" />
+      <workItem from="1597787078335" duration="364000" />
+      <workItem from="1597876187898" duration="3000" />
+      <workItem from="1600033355780" duration="10614000" />
+      <workItem from="1600114828446" duration="13134000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -112,12 +133,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="189" width="1022" height="737" key="SettingsEditor" timestamp="1596736797399">
+    <state x="834" y="446" width="298" height="224" key="#ESLint" timestamp="1596742660832">
       <screen x="56" y="29" width="1864" height="1051" />
     </state>
-    <state x="477" y="189" width="1022" height="737" key="SettingsEditor/56.29.1864.1051@56.29.1864.1051" timestamp="1596736797399" />
+    <state x="834" y="446" width="298" height="224" key="#ESLint/56.29.1864.1051@56.29.1864.1051" timestamp="1596742660832" />
+    <state x="679" y="212" width="607" height="692" key="#TypeScript" timestamp="1596742405068">
+      <screen x="56" y="29" width="1864" height="1051" />
+    </state>
+    <state x="679" y="212" width="607" height="692" key="#TypeScript/56.29.1864.1051@56.29.1864.1051" timestamp="1596742405068" />
+    <state x="693" y="356" width="580" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596742199058">
+      <screen x="56" y="29" width="1864" height="1051" />
+    </state>
+    <state x="693" y="356" width="580" height="403" key="#com.intellij.fileTypes.FileTypeChooser/56.29.1864.1051@56.29.1864.1051" timestamp="1596742199058" />
+    <state x="721" y="303" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596742800899">
+      <screen x="56" y="29" width="1864" height="1051" />
+    </state>
+    <state x="721" y="303" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/56.29.1864.1051@56.29.1864.1051" timestamp="1596742800899" />
+    <state x="477" y="189" width="1022" height="737" key="SettingsEditor" timestamp="1596750287938">
+      <screen x="56" y="29" width="1864" height="1051" />
+    </state>
+    <state x="477" y="189" width="1022" height="737" key="SettingsEditor/56.29.1864.1051@56.29.1864.1051" timestamp="1596750287938" />
     <state x="651" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1596736790501">
       <screen x="56" y="29" width="1864" height="1051" />
     </state>
